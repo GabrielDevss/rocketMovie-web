@@ -5,7 +5,7 @@ import { Header } from '../../components/Header';
 import { Movie } from '../../components/Movie';
 import { Container, Content } from './styles';
 
-export function Details() {
+export function Home() {
   return (
     <Container>
       <Header />
