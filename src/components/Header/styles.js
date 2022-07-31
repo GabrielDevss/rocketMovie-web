@@ -19,22 +19,6 @@ export const Container = styled.div`
     font-weight: bold;
     color: ${({ theme }) => theme.colors.violet}
   } 
-
-  > input {
-    width: 100%;
-    height: 5.6rem;
-    border-radius: 1rem;
-
-    padding: 1.9rem 2.4rem;
-    margin: 0 6.4rem;
-
-    background-color: ${({ theme }) => theme.colors.background_800};
-    color: ${({ theme }) => theme.colors.white};
-    
-    &:placeholder {
-      color: ${({ theme }) => theme.colors.gray_100}
-    }
-  }
 `;
 
 export const Profile = styled.div`

@@ -2,11 +2,11 @@ import { FiArrowLeft } from "react-icons/fi";
 
 import { Container } from "./styles";
 
-export function ButtonText({ ...rest }) {
+export function ButtonText() {
   return (
-    <Container {...rest}>
-      <FiArrowLeft size={20} />
-      <span>Voltar</span>
+    <Container>
+        <FiArrowLeft size={20} />
+        Voltar
     </Container>
   );
 }
