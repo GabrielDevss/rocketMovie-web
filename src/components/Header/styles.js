@@ -17,7 +17,8 @@ export const Container = styled.div`
   > h1 {
     font-size: 2.4rem;
     font-weight: bold;
-    color: ${({ theme }) => theme.colors.violet}
+    color: ${({ theme }) => theme.colors.violet};
+    margin-right: 6.4rem;
   } 
 `;
 
@@ -25,6 +26,7 @@ export const Profile = styled.div`
   display: flex;
   align-items: center;
 
+  margin-left: 6.4rem;
 
   > div {
     width: 12.5rem;
