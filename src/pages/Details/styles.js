@@ -59,6 +59,7 @@ export const HeaderContent = styled.div`
 `;
 
 export const Content = styled.div`
+  height: 38rem;
   max-height: 48.1rem;
 
   grid-area: content;

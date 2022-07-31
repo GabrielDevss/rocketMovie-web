@@ -24,7 +24,7 @@ export function Home() {
              tags: [
               {id: '1', name: 'Ficção Cientifica'},
               {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
+              {id: '3', name: 'Família'}
              ]
             }}
           />
@@ -34,7 +34,7 @@ export function Home() {
              tags: [
               {id: '1', name: 'Ficção Cientifica'},
               {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
+              {id: '3', name: 'Família'}
              ]
             }}
           />
@@ -44,37 +44,7 @@ export function Home() {
              tags: [
               {id: '1', name: 'Ficção Cientifica'},
               {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
-             ]
-            }}
-          />
-
-<Movie
-            data={{
-             tags: [
-              {id: '1', name: 'Ficção Cientifica'},
-              {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
-             ]
-            }}
-          />
-
-<Movie
-            data={{
-             tags: [
-              {id: '1', name: 'Ficção Cientifica'},
-              {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
-             ]
-            }}
-          />
-
-<Movie
-            data={{
-             tags: [
-              {id: '1', name: 'Ficção Cientifica'},
-              {id: '2', name: 'Drama'},
-              {id: '1', name: 'Família'}
+              {id: '3', name: 'Família'}
              ]
             }}
           />
