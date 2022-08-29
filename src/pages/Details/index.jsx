@@ -1,12 +1,13 @@
 import { FiClock } from "react-icons/fi";
-
-import { ButtonStar } from "../../components/ButtonStar";
+import { Rating } from "react-simple-star-rating";
 import { ButtonText } from "../../components/ButtonText";
 import { Header } from "../../components/Header";
+import { useTheme } from "styled-components";
 
 import { Container, Content, HeaderContent } from "./styles";
 
 export function Details() {
+  const themes = useTheme();
   return (
     <Container>
       <Header />
@@ -17,7 +18,15 @@ export function Details() {
           <HeaderContent>
             <div className="title">
               <h1>Interrestellar</h1>
-              <ButtonStar />
+              <Rating
+                ratingValue={0}
+                initialValue={3}
+                fillColor={themes.colors.violet}
+                emptyColor={themes.colors.background_600}
+                readonly
+                size={24}
+                allowHover={false}
+              />
             </div>
             <div className="info">
               <img src="https://github.com/gabrieldevss.png" alt="" />

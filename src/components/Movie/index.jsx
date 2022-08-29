@@ -1,15 +1,26 @@
-
-import { ButtonStar } from '../ButtonStar';
+import { Rating } from 'react-simple-star-rating';
+import { useTheme } from 'styled-components';
+import { Container, RatingContainer } from './styles';
 import { Tag } from '../Tag';
 
-import { Container } from './styles';
-
 export function Movie({ data, ...rest}) {
+  const themes = useTheme();
   return (
     <Container {...rest}>
        <h1>Interrestellar</h1>
 
-      <ButtonStar />
+
+        <RatingContainer>
+          <Rating
+            ratingValue={0}
+            initialValue={3}
+            fillColor={themes.colors.violet}
+            emptyColor={themes.colors.background_600}
+            readonly
+            size={24}
+            allowHover={false} 
+          />
+        </RatingContainer>
 
       <p>
         Pragas nas colheitas fizeram a civilização humana regredir para uma

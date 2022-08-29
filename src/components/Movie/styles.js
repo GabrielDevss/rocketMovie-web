@@ -31,3 +31,16 @@ export const Container = styled.div`
     margin-top: 2rem;
   }
 `;
+
+export const RatingContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+  .star-svg > path {
+    stroke-width: 1px;
+    stroke: #ff859b;
+  }
+
+`;

@@ -12,7 +12,7 @@ export function Header() {
           <strong>Gabriel Oliveira</strong>
           <a href="#">sair</a>
         </div>
-        <img src="https://github.com/gabrieldevss.png" alt="Foto do usuário" />
+        <img src="https://github.com/gabrielodeveloper.png" alt="Foto do usuário" />
       </Profile>
     </Container>
   );

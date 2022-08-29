@@ -17,7 +17,7 @@ export const Container = styled.div`
   } 
 `;
 
-export const Content = styled.div`
+export const Content = styled.form`
   width: 100%;
   height: 38rem;
 
@@ -38,6 +38,12 @@ export const Content = styled.div`
     align-items: center;
     gap: 5.6rem;
     margin-top: 4rem;
+    padding-right: 8rem;
+
+   .star-svg > path {
+    stroke-width: 1px;
+    stroke: ${({theme }) => theme.colors.violet};
+  }
   }
 
   > footer {
@@ -51,25 +57,20 @@ export const Content = styled.div`
 
     .tags {
       width: 100%;
-      height: 8.8rem;
+      min-height: 8.8rem;
+      flex-wrap: wrap;
       display: flex;
-      align-items: center;
-      gap: 2.4rem;
+      gap: 1.4rem;
 
       background-color: ${({ theme }) => theme.colors.black};
       border-radius: 1rem;
-      padding: 0 1.6rem;
+      padding: 1.6rem;
       margin-bottom: 4rem;
     }
 
     .buttons {
       display: flex;
-      gap: 4rem;
-
-      > button:nth-child(1) {
-        background-color: ${({ theme }) => theme.colors.black};
-        color: ${({ theme }) => theme.colors.violet};
-      }
+      padding: 0 12rem;
 
       > button {
         font-weight: 600;
